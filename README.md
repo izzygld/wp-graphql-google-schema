@@ -15,6 +15,8 @@ As recommended by google - [Article](https://developers.google.com/search/docs/d
 ### Todos
 
  - Add more schema fields
+ - Add Date fields
+ - Add Language fields
  - Add, Video, Audio, Recipes Schemas.
 
 **Free Software, Hell Yeah!**
