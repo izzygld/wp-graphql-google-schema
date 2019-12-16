@@ -21,6 +21,10 @@ As recommended by google - [Article](https://developers.google.com/search/docs/d
 
 * [article.vue] - Here's an example of JSON-LD code for an Article object.
 
+* [audio.vue] - Here's an example of JSON-LD code for an Post format Audio object.
+
+* [video.vue] - Here's an example of JSON-LD code for an Post format Audio object.
+
 * [postQuery.ggl] - graphql query to reproduce the sample data.
 
 * [exampleData] - data example.
