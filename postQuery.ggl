@@ -1,0 +1,52 @@
+query GetPosts($slug: String) {
+  postBy(uri: $slug) {
+    title
+    content
+    slug
+    excerpt
+    uri
+    author {
+      name
+      avatar {
+        foundAvatar
+        rating
+        size
+        url
+        width
+      }
+      description
+      email
+      firstName
+      lastName
+      slug
+      url
+    }
+    link
+    date
+    featuredImage {
+      sourceUrl
+    }
+    date
+    dateGmt
+    seo_canonical
+    seo_metadesc
+    seo_nofollow
+    seo_noindex
+    seo_redirect
+    seo_title
+    opengraph_title
+    opengraph_description
+    opengraph_image
+    seo_twitter_card
+    seo_twitter_description
+    seo_twitter_image
+    seo_twitter_title
+    tags {
+      edges {
+        node {
+          name
+        }
+      }
+    }
+  }
+}

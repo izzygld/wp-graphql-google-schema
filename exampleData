@@ -1,0 +1,46 @@
+{
+  "data": {
+    "postBy": {
+      "title": "regular title",
+      "content": "<p>regular content&#8230;.</p>\n",
+      "slug": "seo-example",
+      "excerpt": "<p>regular content&#8230;.</p>\n",
+      "uri": "seo-example",
+      "author": {
+        "name": "Author Name and Last name",
+        "avatar": {
+          "foundAvatar": true,
+          "rating": "g",
+          "size": 96,
+          "url": "http://1.gravatar.com/avatar/",
+          "width": 96
+        },
+        "description": null,
+        "email": "email@gmail.com",
+        "firstName": "John",
+        "lastName": "Doe",
+        "slug": "philadelphia",
+        "url": null
+      },
+      "link": "https///post-url",
+      "date": "2019-12-16T13:19:47",
+      "featuredImage": {
+        "sourceUrl": "https///image-url"
+      },
+      "dateGmt": "2019-12-16T13:19:47",
+      "seo_canonical": "http://CanonicalURL",
+      "seo_metadesc": "Seo meta description",
+      "seo_nofollow": true,
+      "seo_noindex": "1",
+      "seo_redirect": "",
+      "seo_title": "seo title",
+      "opengraph_title": "seo Facebook Title",
+      "opengraph_description": "seo Facebook Description",
+      "opengraph_image": "",
+      "seo_twitter_card": "",
+      "seo_twitter_description": "",
+      "seo_twitter_image": "",
+      "seo_twitter_title": ""
+    }
+  }
+}
