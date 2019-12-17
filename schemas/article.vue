@@ -14,7 +14,6 @@ export default {
 			var SeoContent = this.post.seo_metadesc ? he.decode(striptags(this.post.seo_metadesc)).substring(0, 109) : he.decode(striptags(this.post.content)).substring(0, 109);
 			var SeoUrl = this.post.seo_canonical ? this.post.seo_canonical : this.post.slug;
 			var SeoImage = this.post.seo_title ? this.post.seo_title : (this.post.featuredImage ? this.post.featuredImage.sourceUrl : '');
-
 			const publishers = this.post.publisher.map(a => {
 				return {
 					"@type" : "Organization",
@@ -37,7 +36,8 @@ export default {
 				return {
 					"@type" : "Person",
 					"name" : a.firstName + a.lastName,
-					"image": a.url
+					"image": a.url ? a.url : a.email
+					// "givenName"
 				}
 			})
 			return {
@@ -51,7 +51,7 @@ export default {
 				"alternativeHeadline" : SeoTitle,
 				"dateCreated" : this.post.dateGmt,
 				"datePublished" : this.post.dateGmt,
-				"dateModified" :  this.post.updatedAt,
+				"dateModified" :  this.post.modified,
 				"inLanguage" : "generalSettingsLanguage",
 				"isFamilyFriendly" : "true",
 				"copyrightYear" : "2019",

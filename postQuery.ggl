@@ -23,6 +23,13 @@ query GetPosts($slug: String) {
     }
     link
     date
+    modified
+    modifiedGmt
+    editLast {
+      id
+    }
+    isRestricted
+    menuOrder
     featuredImage {
       sourceUrl
     }

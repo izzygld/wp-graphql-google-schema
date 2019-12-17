@@ -24,6 +24,13 @@
       },
       "link": "https///post-url",
       "date": "2019-12-16T13:19:47",
+            "modified": "2019-12-16 13:45:20",
+      "modifiedGmt": "2019-12-16T13:45:20",
+      "editLast": {
+        "id": "dXNlcjo0MDY3"
+      },
+      "isRestricted": false,
+      "menuOrder": null,
       "featuredImage": {
         "sourceUrl": "https///image-url"
       },
