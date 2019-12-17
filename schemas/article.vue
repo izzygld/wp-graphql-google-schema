@@ -52,7 +52,7 @@ export default {
 				"dateCreated" : this.post.dateGmt,
 				"datePublished" : this.post.dateGmt,
 				"dateModified" :  this.post.modified,
-				"inLanguage" : "generalSettingsLanguage",
+				"inLanguage" : "generalSettingsLanguage", //en-US
 				"isFamilyFriendly" : "true",
 				"copyrightYear" : "2019",
 				"copyrightHolder" : "",
