@@ -11,7 +11,13 @@ Google uses structured data that it finds on the web to understand the content o
 
 As recommended by google - [Article](https://developers.google.com/search/docs/data-types/article)
 
-  
+
+## Pre-req's
+Using this schema requires having the <a href="https://github.com/wp-graphql/wp-graphql" target="_blank">WPGraphQL plugin</a> installed 
+and activated. (version 0.0.15 or newer)
+
+
+
 
 ### Structure
 
